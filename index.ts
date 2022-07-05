@@ -1,5 +1,6 @@
 // Square root using Map 
-var arr = [16,49,50,225,25,33];
+let arr: Array<number>;
+arr = [16,49,50,225,25,33];
 var val = arr.map(Math.sqrt);
 console.log(val);
 
